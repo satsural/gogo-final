@@ -6,6 +6,7 @@
 .today-grid-section_news-part {
     text-decoration: none;
     display: flex;
+    padding: 10px 0px 10px 0px;
   }
 .today-grid-section_news-part__text{
     padding-left: 15px;
@@ -22,8 +23,10 @@
     display: block;
     object-fit: cover;
     border-radius: 5px;
-     width: 105px; 
+    width: 105px; 
     height: 110px;
+   
+   
   }
 
 .today-grid-section_news-part__text>h3{
@@ -32,9 +35,15 @@
     margin-bottom: 10px !important;
     color: var(--primary-text-black);
 } 
-.today-grid-section_news-part__text-icons{
-    padding-top: 20px;
+.today-grid-section_news-part__text>h3+p{
+  color: rgb(136, 136, 136);
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 15px;
+ 
 }
+
 .today-grid-section_news-part__text-icons p{
     font-size: 12px !important;
     color: #888;
