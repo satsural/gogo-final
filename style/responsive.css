@@ -25,7 +25,15 @@
   display:none;
 
 }
-
+.side_with_trend{
+  display: none;
+}
+.today-grid-nav{
+  display: none;
+}
+.today-grid-line{
+  display: none;
+}
 @media  (min-width: 630px) and (max-width: 950px){
   .story-section-stories{
     grid-template-columns: repeat(3,1fr);
@@ -46,7 +54,18 @@
     width: 100%;
     height: 100%;
   }
-  
+  .side-news{
+    display: none;
+  }
+  .today-grid-nav{
+    display: none;
+  }
+  .today-grid-line{
+    display: none;
+  }
+  .side_with_trend{
+    display: none;
+  }
 }
 
 
@@ -134,7 +153,23 @@
       width: 100%;
       height: 100%;
     }
-
+    .story-section-story__header, .story-section {
+      padding: 20px 0px 30px 0px;
+  }
+  .today-grid-section{
+    margin: 20px 30px 0px 0px;
    
   }
-
+  .side-news{
+    display: block;
+  }
+  .today-grid-nav{
+    display: block;
+  }
+  .today-grid-line{
+    display: block;
+  }
+  .side_with_trend{
+    display: block;
+  }
+}

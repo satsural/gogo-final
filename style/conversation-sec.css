@@ -1,0 +1,66 @@
+.conversation-sec_header{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.conversation-sec_header img{
+    width: 20px;
+    height: 25px;
+}
+.conversation-sec_header p{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+}  
+.con-sec_part>img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+.con-sec_part{
+    max-width: 425px;
+    margin: auto;
+    position: relative;
+
+}
+.con-sec_part-blue{
+    width: 71px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #407CE8;
+}
+.con-sec_part-blue>p{
+   
+font-size: 10px;
+font-weight: 700;
+line-height: 22px;
+text-align: left;
+color:  #FFFFFF;
+}
+.con-sec_part_text{
+    position: absolute;
+    z-index: 2;
+    left:30px ;
+    bottom: 30px;
+}
+.con-sec_part_text_info>p{
+   
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+color: #FFFFFF;
+}
+.con-sec_part_text-bottom__section{
+    
+font-size: 10px;
+font-weight: 700;
+line-height: 22px;
+text-align: left;
+color: #FFFFFF;
+}
